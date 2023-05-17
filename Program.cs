@@ -1,0 +1,11 @@
+﻿Console.WriteLine("math function");
+Console.Writeline("enter an x: ");
+int x = int.Parse(Console.ReadLine());
+Console.Writeline("enter an y: ");
+int y = int.Parse(Console.ReadLine());
+int z = x + y;
+Console.WriteLine(x, "+", y, "=", z);
+double resultOfRound = Math.Round(3.14);
+Console.WriteLine(resultOfRound);
+double resultOfMax = Math.Max(78546, 978565);
+Console.WriteLine(resultOfMax);
